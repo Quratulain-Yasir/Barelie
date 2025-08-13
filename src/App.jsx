@@ -1,21 +1,17 @@
 import React from "react";
-import { Route, Router } from "react-router-dom";
- import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import InfiniteCarousel from "./components/InfiniteCarousel";
-import FeatureProducts from "./components/FeatureProducts";
-
+import { Route, Routes } from "react-router-dom"; 
+import Footer from "./components/Footer"; 
+import Cart from "./pages/Cart";
+import Home from "./pages/Home";
 const App = () => {
   return (
- 
-<div className="bg-[#fdf1e7]">
-       <Navbar />
-      <HeroSection />
-      <InfiniteCarousel />
-      <FeatureProducts />
+    <div className="bg-[#fdf1e7]">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+      <Footer />
     </div>
- 
- 
   );
 };
 

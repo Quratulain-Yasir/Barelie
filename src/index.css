@@ -1,9 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import "tailwindcss";
 
-h1 , h2 , h3 , nav  {
+h1,
+h2,
+nav {
   font-family: Playfair Display;
-} 
-p,button{
+}
+p,
+button,
+h3,
+a {
   font-family: Inter;
+}
+:root {
+  --bg-primary:  radial-gradient(circle at top right, #fde894 ,#f4a330,  #fffbe7 ,  #fffbe7);
+
+  --linear-gradient-one: linear-gradient(135deg, #7b2cbf, #ffcc00);
+  --linear-gradient-two: linear-gradient(135deg, #ff5757, #8c52ff);
+    --linear-gradient-three:  linear-gradient(
+    to bottom,
+    #e18192,    
+    #f4b183,    
+    #fef5a5,   
+    #fbcff2 ,
+    #fbcff2     
+  )
+}
+@layer utilities {
+  .bg-primary {
+    background-image: var(--bg-primary);
+  }
+  .bg-gradient-one {
+    background-image: var(--linear-gradient-one);
+  }
+  .bg-gradient-two {
+    background-image: var(--linear-gradient-two);
+  }
+    .bg-gradient-three {
+    background-image: var(--linear-gradient-three);
+  }
 }

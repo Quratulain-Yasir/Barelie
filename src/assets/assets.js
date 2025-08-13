@@ -23,3 +23,57 @@ export const assets = {
     stripe_logo,
     razorpay_logo ,
 }
+
+export const quizData1 = [
+    {
+          id: "skinType",
+  question: "How would you describe your skin type?",
+  options: [
+    { id: "dry", label: "Dry" },
+    { id: "oily", label: "Oily" },
+    { id: "combination", label: "Combination" },
+    { id: "normal", label: "Normal" },
+  ],
+}
+]
+export const quizData2 = [    {
+  id: "skinConcerns",
+  question: "What are your top skin concerns?",
+  options: [
+    { id: "acne", label: "Acne & Breakouts" },
+    { id: "darkSpots", label: "Dark Spots" },
+    { id: "wrinkles", label: "Fine Lines & Wrinkles" },
+    { id: "dullness", label: "Dullness" },
+    { id: "redness", label: "Redness or Inflammation" },
+  ],
+},]
+export const quizData3 = [{
+  id: "skinSensitivity",
+  question: "How sensitive is your skin?",
+  options: [
+    { id: "verySensitive", label: "Very Sensitive" },
+    { id: "somewhatSensitive", label: "Somewhat Sensitive" },
+    { id: "notSensitive", label: "Not Sensitive" },
+  ],
+},]
+export const quizData4 = [{
+  id: "routineFrequency",
+  question: "How often do you use skincare products?",
+  options: [
+    { id: "daily", label: "Daily (AM & PM)" },
+    { id: "onceDaily", label: "Once a Day" },
+    { id: "occasionally", label: "Occasionally" },
+    { id: "never", label: "I don’t use any skincare" },
+  ],
+},]
+export const quizData5 = [{
+  id: "productPreference",
+  question: "What type of skincare products are you interested in?",
+  options: [
+    { id: "cleanser", label: "Cleanser" },
+    { id: "moisturizer", label: "Moisturizer" },
+    { id: "serum", label: "Serum" },
+    { id: "sunscreen", label: "Sunscreen" },
+    { id: "exfoliator", label: "Exfoliator" },
+  ],
+}] 
