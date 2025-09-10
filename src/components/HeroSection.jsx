@@ -16,7 +16,7 @@ const HeroSection = () => {
         <p className="text-base sm:text-lg text-gray-800 max-w-xl mx-auto mb-6">
           Your skin deserves more than just care—it deserves transformation. Discover science-backed skincare designed for lasting beauty.
         </p>
-<button className="bg-yellow-200 hover:bg-yellow-300 text-black font-semibold py-2 sm:py-3 px-5 sm:px-6 rounded-md transition-all inline-flex items-center self-center gap-2">
+<button className="bg-yellow-200 hover:bg-yellow-300 text-black font-semibold py-2 sm:py-3 px-5 sm:px-6 rounded-md inline-flex items-center self-center gap-2  hover:scale-105 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out">
   Get Free Skin Assessment
   <MdCallMade className="text-lg" />
 </button>

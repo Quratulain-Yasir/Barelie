@@ -8,6 +8,11 @@ import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
+import p1 from "./p1.jpg"
+import p2 from "./p2.jpg"
+import p3 from "./p3.jpg"
+import p4 from "./p4.jpg"
+import p5 from "./p5.jpg"
 
 export const assets = {
     chats_icon,
@@ -77,3 +82,78 @@ export const quizData5 = [{
     { id: "exfoliator", label: "Exfoliator" },
   ],
 }] 
+
+
+
+export const products = [
+    {
+        _id:"product1" , 
+        name:"CBD Cream" ,
+        image: p1  ,
+        speciality:"Pain Relief" , 
+        quantity:"500mg" ,
+        sold:"50", 
+        about: "Experience the silky touch of our ultra-hydrating Pain Relief cream, designed to nourish and restore your skin’s natural glow.It melts in effortlessly for all-day softness." ,
+        fees:"500" , 
+        flavours: {
+            line1:"cherry" ,
+            line2: 'Blueberry'
+        }
+    },
+       {
+        _id:"product2" , 
+        name:"Serum" ,
+        image: p2  ,
+        speciality:"Nourishing" , 
+        quantity:"500mg" ,
+        sold:"50", 
+        about: "Experience the silky touch of our ultra-hydrating Pain Relief cream, designed to nourish and restore your skin’s natural glow.It melts in effortlessly for all-day softness." ,
+        fees:"500" , 
+        flavours: {
+            line1:"cherry" ,
+            line2: 'Blueberry'
+        }
+    },
+         {
+        _id:"product3" , 
+        name:"Serum" ,
+        image: p3  ,
+        speciality:"Peeling Solution" , 
+        quantity:"500mg" ,
+        sold:"50", 
+        about: "Experience the silky touch of our ultra-hydrating serum, designed to nourish and restore your skin’s natural glow.It melts in effortlessly for all-day softness." ,
+        fees:"500" , 
+        flavours: {
+            line1:"cherry" ,
+            line2: 'Blueberry'
+        }
+    },
+             {
+        _id:"product4" , 
+        name:"Serum Bundle" ,
+        image: p4  ,
+        speciality:"Peeling Solution" , 
+        quantity:"1000mg" ,
+        sold:"80", 
+        about: "Experience the silky touch of our ultra-hydrating serum, designed to nourish and restore your skin’s natural glow.It melts in effortlessly for all-day softness." ,
+        fees:"5000" , 
+        flavours: {
+            line1:"cherry" ,
+            line2: 'Blueberry'
+        }
+    },
+             {
+        _id:"product5" , 
+        name:"Whitening Cream" ,
+        image: p5  ,
+        speciality:"Nourishing" , 
+        quantity:"500mg" ,
+        sold:"50", 
+        about: "Experience the silky touch of our ultra-hydrating serum, designed to nourish and restore your skin’s natural glow.It melts in effortlessly for all-day softness." ,
+        fees:"500" , 
+        flavours: {
+            line1:"cherry" ,
+            line2: 'Blueberry'
+        }
+    },
+]
